@@ -67,7 +67,7 @@ class TestVarasto(unittest.TestCase):
     def test_ota_varastosta_virheellinen_maara(self):
         self.varasto.ota_varastosta(-2)
 
-        self.assertAlmostEqual(self.varasto.saldo, 0)
+        self.assertAlmostEqual(self.varasto.saldo, 1)
 
     def test_oikea_tulostus(self):
         self.varasto = Varasto(10,0)
