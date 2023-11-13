@@ -64,6 +64,6 @@ def main():
     varaston_luonti_virheet()
     lisaa_varastoon_virheet(mehua, olutta)
     ota_varastosta_virheet(mehua, olutta)
-    
+
 if __name__ == "__main__":
     main()
